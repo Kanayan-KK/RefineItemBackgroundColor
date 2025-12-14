@@ -18,16 +18,11 @@ namespace RefineItemBackgroundColor
             if (card.IsFood)
                 return;
 
-            // 装備以外を除外
-            if (!card.IsEquipment)
-                return;
-
             // エンチャントが無いアイテムを除外
             if (card.elements == null)
                 return;
 
-            // レアリティがノーマル以下のアイテムを除外
-            if (card.rarity is Rarity.Random or Rarity.Crude or Rarity.Normal)
+            if (card.rarity is Rarity.Normal or Rarity.Crude or Rarity.Random)
                 return;
             
             var images = __0.GetComponentsInChildren<Image>(true);
