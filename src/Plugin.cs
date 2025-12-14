@@ -9,7 +9,7 @@ public static class ModInfo
 {
     public const string Guid = "Elin.RefineItemBackgroundColor";
     public const string Name = "Refine Item Background Color";
-    public const string Version = "1.0.2";
+    public const string Version = "1.0.3";
 }
 
 [BepInPlugin(ModInfo.Guid, ModInfo.Name, ModInfo.Version)]
