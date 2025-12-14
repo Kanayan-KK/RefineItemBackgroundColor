@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+    <title>Refine Item Background Color</title>
+    <id>Elin.RefineItemBackgroundColor</id>
+    <author>Quicee</author>
+    <loadPriority>100</loadPriority>
+    <version>0.23.237</version>
+    <tags>General,QoL</tags>
+    <description>
+        装備品のレアリティごとの背景色を見やすくします。
+        [hr][/hr]
+        Refines the background color of items based on their rarity.
+        [hr][/hr]
+        [url=https://github.com/Kanayan-KK/RefineItemBackgroundColor] SourceCode [/url]
+    </description>
+    <builtin>false</builtin>
+    <visibility>Public</visibility>
+</Meta>
